@@ -7,13 +7,14 @@
 
 	<title>Crea Richiesta</title>
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="stylesheet" href="css/Request.css" type="text/css">
 	<script type="text/javascript" src="js/activeMenu.js"></script>
 	
 </head>
 
 	<%@ include file="navbar.jsp" %>
 
-	<div class="container">
+	<div class="container-fluid">
 
 		<div class="row">
 		
@@ -39,7 +40,7 @@
 					</select>
 
 				</div>
-					<label>Data</label> <input type="date" name=data />
+					<label>Data</label> <input type="date" name=data id="dt"/>
 				<div>
 					<label>Partecipante 1</label> <input name="partecipante1" />
 				</div>
@@ -55,16 +56,25 @@
 				<div>
 					<label>Partecipante 5</label> <input name="partecipante5" />
 				</div>
-				<div>
-					<input type="submit" value="crea" />
+				
+				<div class="btn-group-toggle" data-toggle="buttons">
+  					<label class="btn btn-secondary active">
+    					<input type="checkbox" checked autocomplete="off"> Checked
+  					</label>
 				</div>
 			</form>
 
-			</div>
-			
-		  </div>
-    	  
 		</div>
+			
+			<div class="col-sm">
+
+    				seconda colonna
+
+    		</div>
+			
+		</div>
+    	  
+	</div>
 
 
 </body>

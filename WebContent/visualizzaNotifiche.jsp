@@ -14,11 +14,11 @@
 
 	<%@ include file="navbar.jsp" %>
 
-	<div class="container">
+	<div class="container-fluid">
 
 		<div class="row">
 
-		 	<div class="col-sm-8">
+		 	<div class="col-sm">
 
 				<h2>Ciao <%= nome %> ecco le tue notifiche</h2>
 

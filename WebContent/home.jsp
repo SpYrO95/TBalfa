@@ -15,10 +15,7 @@
 
 <body>
 
-
-Ciao <%= nome %>
-
- <div class="container">
+ <div class="container-fluid">
   	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
   		<div class="row">
 
