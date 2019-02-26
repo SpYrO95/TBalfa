@@ -57,10 +57,8 @@
 					<label>Partecipante 5</label> <input name="partecipante5" />
 				</div>
 				
-				<div class="btn-group-toggle" data-toggle="buttons">
-  					<label class="btn btn-secondary active">
-    					<input type="checkbox" checked autocomplete="off"> Checked
-  					</label>
+				<div>
+					<input type="submit" value="crea" />
 				</div>
 			</form>
 
@@ -79,3 +77,4 @@
 
 </body>
 </html>
+

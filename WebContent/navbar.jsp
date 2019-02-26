@@ -29,7 +29,7 @@
 	<header>
 		<div class="search">
 			<form class="search-box" method=post
-				action="paginaPersonale.jsp?nome=<%=nome%>&tipo=<%=tipo%>&tipoVisitato=musicista">
+				action="paginaPersonale.jsp?nome=<%=nome%>&tipo=<%=tipo%>">
 				<input class="search-txt" type="text" placeholder="Search"
 					aria-label="Search" name=visitato>
 				<button class="search-button" type="submit">
@@ -39,9 +39,7 @@
 		</div>
 
 		<div class="logo">
-			<a href="home.jsp?nome=<%=nome%>&tipo=<%=tipo%>">
-				<img width="128" height="64" id="logo" src="immagini/Logo.png" />
-			</a>
+			<a href="home.jsp?nome=<%=nome%>&tipo=<%=tipo%>"><img width="128" height="64" id="logo" src="immagini/Logo.png" /></a>
 		</div>
 
 		<nav>
@@ -76,12 +74,9 @@
 						<img width="32" height="32" src="svg/si-glyph-person-2.svg" />
 				</a></li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="logIn.html">
-				 		<img width="32" height="32" src="svg/si-glyph-sign-out.svg" />
-					</a>
-				</li>
-
+				<li class="nav-item"><a class="nav-link" href="logIn.html">
+						<img width="32" height="32" src="svg/si-glyph-sign-out.svg" />
+				</a></li>
 			</ul>
 		</nav>
 
@@ -95,12 +90,22 @@
 
 
 
-	  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="js/activeMenu.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.menu-toggle').click(function() {
+				$('nav').toggleClass('active')
+			})
+		})
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
 </body>
 </html>
+
+

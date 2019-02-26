@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	import="logica.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -15,14 +17,17 @@
 
 <body>
 
- <div class="container-fluid">
+<%@ include file="navbar.jsp" %>
+
+
+		
+
+<div class="container-fluid">
   	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
   		<div class="row">
 
     		<div class="col-sm-8">
-
-    				prima colonna
-
+					Ciao <%= nome %>
     		</div>
 
     		<div class="customDiv">
@@ -34,10 +39,10 @@
 
     		</div>
   		</div>
-  	</div>
-
-  	<jsp:include page="navbar.jsp"/>
+</div>
 
 </body>
 
 </html>
+
+

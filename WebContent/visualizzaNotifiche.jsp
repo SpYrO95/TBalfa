@@ -18,7 +18,7 @@
 
 		<div class="row">
 
-		 	<div class="col-sm">
+		 	<div class="col-sm-8">
 
 				<h2>Ciao <%= nome %> ecco le tue notifiche</h2>
 
@@ -26,20 +26,24 @@
 				<%	String select = "select * from notifiche where utente = '" + nome + "'";
 				PreparedStatement statement = Connessione.getConnection().prepareStatement(select);
 				ResultSet result = statement.executeQuery();
-
 				while(result.next()) {
 					String messaggio = result.getString("notifica");  %>
 
-					<div>Hai una nuova notifica :</div>
-					<div><%= messaggio %></div>
+					<div>Hai una nuova notifica : <%= messaggio %></div>
 
 					<form method=post action="elimina?utente=<%= nome %>&notifica=<%= messaggio %>&tipo=<%= tipo %>">
-						<input type=submit value=ok>
+						<input type=submit value=Ok>
 					</form>
 
 				<% } %>
 
 			</div>
+
+			<div class="customDiv"> </div>
+			
+			<div class="col-sm">
+    				seconda colonna
+    		</div>
 
 		 </div>
 
