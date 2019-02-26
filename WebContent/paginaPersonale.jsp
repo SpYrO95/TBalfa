@@ -91,7 +91,7 @@
 			<div class="customDiv">
     		</div>
 
-			<div class="card" style="width: 38rem;">
+			<div class="card" style="width: 34rem;">
 
 				<div class="card-body">
 

@@ -7,7 +7,6 @@
 	
 	<title>Crea Richiesta</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/form.css" type="text/css">
 	<link rel="stylesheet" href="css/Request.css" type="text/css">
 	<script type="text/javascript" src="js/activeMenu.js"></script>
 	
@@ -16,6 +15,8 @@
 	<%@ include file="navbar.jsp" %>
 	
 	<div class="container-fluid">
+
+		<div class="row">
 		
 		 <div class="col-sm-6">
 		 
@@ -80,7 +81,9 @@
     		</div>
 			
 		</div>
-    
+    	  
+	</div>
+
 </body>
 </html>
 
