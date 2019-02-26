@@ -52,6 +52,8 @@
 
 
 			<div class="card" style="width: 24rem;">
+			
+				<img width="96" height="96" src="svg/si-glyph-music-note.svg"  class="card-img-top">
 
 				<div class="card-body">
 
@@ -77,8 +79,7 @@
 
 					</table>
 
-					<a
-						href="segui?utente1=<%=nome%>&utente2=<%=visitato%>&tipo=<%=tipo%>">Follow</a>
+					<a class="btn btn-dark" href="segui?utente1=<%=nome%>&utente2=<%=visitato%>&tipo=<%=tipo%>">Follow</a>
 
 					<%
 						}
