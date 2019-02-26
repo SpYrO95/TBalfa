@@ -7,6 +7,7 @@
 	<meta charset="UTF-8">
 	<title>Visualizza notifiche</title>
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="stylesheet" href="css/Notifics.css" type="text/css">
 	<script type="text/javascript" src="js/activeMenu.js"></script>
 
 </head>
@@ -18,7 +19,7 @@
 
 		<div class="row">
 
-		 	<div class="col-sm-8">
+		 	<div class="col-sm-6">
 
 				<h2>Ciao <%= nome %> ecco le tue notifiche</h2>
 
@@ -38,10 +39,8 @@
 				<% } %>
 
 			</div>
-
-			<div class="customDiv"> </div>
 			
-			<div class="col-sm">
+			<div class="col-sm-4">
     				seconda colonna
     		</div>
 

@@ -1,0 +1,41 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin-top: 100px;
+	padding: 0;
+	height: 1500px;
+	background-image: linear-gradient(-90deg, silver, black );
+}
+
+.container-fluid
+{
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+
+
+.login-rigth
+{
+	text-align: center;
+	color: #fff
+	padding: 30px;
+}
+
+.login-right img
+{
+	margin: 40px;
+	width: 150px;
+	animation: mover 1s infinite alternate;
+}
+
+@keyframes mover
+{
+	0%{transform: translteY(0);}
+	100%{transform: translateY(-20px);}
+}

@@ -51,7 +51,7 @@
 		<div class="row">
 
 
-			<div class="card" style="whidt: 24rem">
+			<div class="card" style="width: 24rem;">
 
 				<div class="card-body">
 
@@ -80,9 +80,6 @@
 					<a
 						href="segui?utente1=<%=nome%>&utente2=<%=visitato%>&tipo=<%=tipo%>">Follow</a>
 
-
-
-
 					<%
 						}
 					%>
@@ -90,13 +87,15 @@
 				</div>
 
 			</div>
+			
+			<div class="customDiv">
+    		</div>
 
+			<div class="card" style="width: 38rem;">
 
-		</div>
+				<div class="card-body">
 
-
-		<div class="customDiv">
-			<h2>Contenuti</h2>
+					<h2>Contenuti</h2>
 			<h3>Eventi in cui ha partecipato</h3>
 
 			<%
@@ -131,9 +130,13 @@
 				}
 				}
 			%>
+						
+				</div>
 
-
+			</div>
+			
 		</div>
+		
 	</div>
 
 

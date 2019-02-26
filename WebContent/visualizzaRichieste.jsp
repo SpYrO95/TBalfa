@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Visualizza Richieste</title>
-<link rel="stylesheet" href="css/layout.css" type="text/css">
 <link rel="stylesheet" href="css/Request.css" type="text/css">
 <script type="text/javascript" src="js/activeMenu.js"></script>
 </head>
@@ -63,7 +62,7 @@
 			</div>
 			<div class="customDiv"> </div>
 			
-			<div class="col-sm">
+			<div class="col-sm-4">
     				seconda colonna
     		</div>
 		</div>
